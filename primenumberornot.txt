@@ -1,0 +1,9 @@
+Private Sub Command1_Click()
+Dim n As Integer
+n=Val (Text1.Text)
+d=0
+For i=1 TO N
+	If n Mod i=0 Then d=d+1
+Next i
+If d=2 Then MsgBox "Prime" Else MsgBox " Not a prime" 
+	

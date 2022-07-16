@@ -1,0 +1,22 @@
+Private Sub Command1_Click()
+Dim n As Integer
+n=Val(Text1.Text)
+Select Case n
+Case 1
+	MsgBox "Sunday"
+Case 2 
+	MsgBox "Monday"
+Case 3
+	MsgBox "Tuesday"
+Case 4
+	MsgBox "Wednesday"
+Case 5 
+	MsgBox "Thursday"
+Case 6
+	MsgBox "Friday"
+Case 7
+	MsgBox "Saturday"
+Case Else
+	MsgBox "The day numbers are only from 1 to 7. "
+End Select
+End Sub

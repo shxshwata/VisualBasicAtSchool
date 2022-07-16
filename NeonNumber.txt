@@ -1,0 +1,14 @@
+Private Sub Command1_Click()
+Dim n As Integer
+Dim i As Integer
+n=Val(Text1.Text)
+X=0
+S=0
+B=n^2
+Do While B>0
+S= B Mod 10
+A=S
+X=X+A
+B=B\10
+LOOP
+If X=n Then MsgBox "Neon" Else MsgBox "Not a neon number."

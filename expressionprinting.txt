@@ -1,0 +1,6 @@
+Private Sub Command1_Click()
+Dim x As Integer
+For x= 5 To 10
+Print ((x^2)-(3*x)+2)
+Next x
+End Sub

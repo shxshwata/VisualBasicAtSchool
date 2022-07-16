@@ -1,0 +1,10 @@
+Private Sub Command1_Click()
+Dim n As Integer
+d=0
+For n =1 to 100
+	For i=1 to n
+		If n Mod i=0 Then d=d+1
+		If d=2 Then MsgBox "Prime"
+	Next i
+Next n
+End Sub

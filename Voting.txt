@@ -1,0 +1,9 @@
+Private Sub Command1_Click()
+Dim n As Integer
+n=Val(Text1.Text)
+If n >=18 Then
+	 MsgBox "You can vote."
+Else
+	 MsgBox "You can't vote."
+End If
+End Sub

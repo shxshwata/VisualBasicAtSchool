@@ -1,0 +1,14 @@
+Private Sub Command1_Click()
+Dim n As Integer
+Dim i As Integer
+n=Val(Text1.Text)
+REV=0
+S=0
+Do While n>0
+S=n Mod 10
+REV=REV*10+S
+n=n\10
+LOOP
+MsgBox (REV)
+If i=n Then MsgBox "It's a pallindrome." Else MsgBox "Not a pallindrome."
+End Sub

@@ -1,0 +1,11 @@
+Private Sub Command1_Click()
+Dim n As Integer
+n=Val(Text1.Text)
+X=0
+A=0
+For i=1 To n
+If n Mod i=0 Then X=i
+A=A+X 
+Next i
+If A=i Then MsgBox "Perfect" Else MsgBox "Not perfect"
+End Sub

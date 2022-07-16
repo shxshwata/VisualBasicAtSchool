@@ -1,0 +1,22 @@
+Private Sub Command1_Click()
+Dim n As Integer
+n=Val(Text1.Text)
+Select Case n
+Case 0 To 1
+	MsgBox "Baby"
+Case 2 To 10
+	MsgBox "Kid"
+Case 11 To 19
+	MsgBox "Teenager"
+Case 20 To 35
+	MsgBox "Young Man"
+Case 36 To 59
+	MsgBox "Middle-aged Man"
+Case 60 To 99
+	MsgBox "Senior Citizen"
+Case Is >=100
+	MsgBox "You are the luckiest."
+Case Else 
+	MsgBox "Invalid age entered."
+End Select
+End Sub

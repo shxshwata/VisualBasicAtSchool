@@ -1,0 +1,10 @@
+Private Sub Command1_Click()
+Dim A As Integer
+Dim B As Integer
+A=Val(Text1.Text)
+B=Val(Text2.Text)
+If B mod A=0 Then 
+	MsgBox "GReat"
+Else
+	MsgBox "Useless"
+End Sub 

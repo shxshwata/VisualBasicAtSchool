@@ -1,0 +1,17 @@
+Private Sub Command1_Click()
+Dim a As Integer
+Dim b As Integer
+Dim n As Variant
+Select Case n
+Case +
+	MsgBox (a+b)
+Case -
+	MsgBox (a-b)
+Case *
+	MsgBox (a*b)
+Case /
+	MsgBox (a/b)
+Case Else 
+	MsgBox "Invalid "
+End Select
+End Sub

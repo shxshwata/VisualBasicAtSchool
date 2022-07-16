@@ -1,0 +1,5 @@
+Private Sub Command1_Click()
+For i=60 to 20 step -1
+Print i
+Next i
+End Sub

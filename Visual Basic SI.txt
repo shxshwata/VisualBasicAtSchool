@@ -1,0 +1,11 @@
+Private Sub Command_Click()
+Dim P As Integer
+Dim R As Integer 
+Dim T As Integer
+Dim SI As Integer
+P=Val(Text1.Text)
+R=Val(Text2.Text)
+T=Val(Text3.Text)
+SI=(P*R*T)/100
+Text4.Text=SI
+End Sub

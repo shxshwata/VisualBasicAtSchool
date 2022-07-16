@@ -1,0 +1,21 @@
+Private Sub Command1_Click()
+Dim n As Integer
+n=Val(Text1.Text)
+Select Case n
+Case 1
+MsgBox "Monday"
+Case 2
+MsgBox "Tuesday"
+Case 3
+MsgBox "Wednesday"
+Case 4    
+MsgBox "Thursday"
+Case 5
+MsgBox   "Friday"
+Case 6
+MsgBox "Saturday"
+Case 7
+MsgBox "Sunday"
+Case Else 
+MsgBox "You are an idiot."
+End Sub
